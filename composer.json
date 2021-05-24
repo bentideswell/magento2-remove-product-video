@@ -1,0 +1,14 @@
+{
+    "name": "fishpig/magento2-remove-product-video",
+    "description": "Remove ProductVideo.",
+    "type": "project",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Magento\\ProductVideo\\": "Mock/Magento/ProductVideo"
+        }
+    },
+    "replace": {
+        "magento/module-product-video": "*"
+    }
+}
